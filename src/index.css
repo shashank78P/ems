@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* WebKit Browsers (Chrome, Safari, Edge) */
+.customScrollBar::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .customScrollBar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .customScrollBar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .customScrollBar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Firefox */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+  
